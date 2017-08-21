@@ -1,0 +1,30 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background: rgba(0, 0, 0, .5);
+
+    display: none;
+}
+.modal_open {
+    display: flex;
+}
+.modal__content {
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: auto;
+    max-height: 90vh;
+    width: 400px;
+    background: #fff;
+}
+.modal__content li {
+    cursor: pointer;
+    padding: 5px 0;
+}
+.modal__content li:hover {
+    background: #ccc;
+}
+

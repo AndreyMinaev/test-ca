@@ -1,0 +1,6 @@
+[production]
+resources.db.adapter = "adapter"
+resources.db.params.username = "username"
+resources.db.params.password = "password"
+resources.db.params.host = "host"
+resources.db.params.dbname = "dbname"
