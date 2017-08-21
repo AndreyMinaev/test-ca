@@ -1,0 +1,124 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a87eb06175c42897da65f6fb319fbfb7",
+    "content-hash": "e47b3397b4ee87e6f53a3f4bdc92eaa6",
+    "packages": [
+        {
+            "name": "akrabat/akrabat_db_schema_manager",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/akrabat/Akrabat.git",
+                "reference": "1c6c4873c9bb5687a137db2325cce641cc9d944d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/akrabat/Akrabat/zipball/1c6c4873c9bb5687a137db2325cce641cc9d944d",
+                "reference": "1c6c4873c9bb5687a137db2325cce641cc9d944d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.7"
+            },
+            "require-dev": {
+                "bombayworks/zendframework1": "v1.12.1",
+                "phpunit/dbunit": "1.2.*",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Akrabat": "library"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "library/"
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Allen",
+                    "email": "rob@akrabat.com",
+                    "homepage": "http://akrabat.com"
+                }
+            ],
+            "description": "Akrabat's Zend Tool Provider for Zend Framework 1 Database Migrations",
+            "homepage": "https://github.com/akrabat/Akrabat",
+            "keywords": [
+                "ZF1",
+                "db migration",
+                "tooling"
+            ],
+            "time": "2013-02-26 19:42:00"
+        },
+        {
+            "name": "bombayworks/zendframework1",
+            "version": "v1.12.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bombayworks/zendframework1.git",
+                "reference": "71aba1eca84d0b5078d22f1d14e09d090baedfdd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bombayworks/zendframework1/zipball/71aba1eca84d0b5078d22f1d14e09d090baedfdd",
+                "reference": "71aba1eca84d0b5078d22f1d14e09d090baedfdd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.11"
+            },
+            "replace": {
+                "zendframework/zendframework1": "self.version"
+            },
+            "require-dev": {
+                "phpunit/dbunit": "1.3.*",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "bin": [
+                "bin/zf.sh",
+                "bin/zf.php"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.12.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend_": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "library/"
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 1",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "ZF1",
+                "framework"
+            ],
+            "time": "2016-09-10 08:00:07"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
